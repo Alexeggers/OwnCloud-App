@@ -3,10 +3,11 @@ import styles from './Demo.scss';
 import cx from 'classnames';
 import webdav from 'webdav';
 import Str from '../../../utils/Str';
-import downloadsFolder from 'downloads-folder';
+//import downloadsFolder from 'downloads-folder';
 import fs from 'fs';
-import { shell } from 'electron';
+import { shell, remote } from 'electron';
 import autobind from 'autobind-decorator';
+import Folder from '../Folder';
 
 export default class Demo extends Component {
     state = {
@@ -21,7 +22,9 @@ export default class Demo extends Component {
         this.getDirectoryContents(this.state.currentDir);
         window.client = this.client;
         window.fs = fs;
-        this.state.downloadsFolder = Str.normalizeSystemPath(downloadsFolder());
+        this.dialog = remote.dialog;
+        /*this.state.downloadsFolder = Str.normalizeSystemPath(downloadsFolder());*/
+        this.state.downloadsFolder = Str.normalizeSystemPath(remote.app.getPath('downloads'));
     }
 
     render() {
@@ -33,10 +36,12 @@ export default class Demo extends Component {
                     <div className="button" onClick={this.handleUpClick}>
                         Up
                     </div>
-                    <div className="button" onClick={this.showFolderCreationDialog}>
+                    <div className="button" onClick={this.handleNewFolderClick}>
                         New folder
                     </div>
-                    <div className="button">Upload file</div>
+                    <div className="button" onClick={this.handleUploadClick}>
+                        Upload file
+                    </div>
                 </div>
                 <div id="folder-creation-block">
                     <label>Folder name: </label>
@@ -54,9 +59,12 @@ export default class Demo extends Component {
                 <div className="file-list">
                     {this.state.contents.map(obj => {
                         return (
-                            <div className="clickable" onClick={() => this.handleFileClick(obj)} key={obj.basename}>
-                                {obj.basename}
-                            </div>
+                            <Folder
+                                key={obj.basename}
+                                obj={obj}
+                                clickHandler={this.handleFileClick}
+                                deleteHandler={this.handleDeleteFileClick}
+                            />
                         );
                     })}
                 </div>
@@ -84,6 +92,7 @@ export default class Demo extends Component {
         });
     }
 
+    @autobind
     handleFileClick(obj) {
         // Handle file clicking
         if (obj.type === 'directory') {
@@ -102,11 +111,15 @@ export default class Demo extends Component {
     }
 
     async downloadFile(obj) {
-        window.fileName = obj.filename;
-        const imageData = await this.client.getFileContents(obj.filename);
+        const fileData = await this.client.getFileContents(obj.filename);
         const downloadPath = this.state.downloadsFolder + '/' + obj.basename;
-        fs.writeFileSync(downloadPath, imageData);
+        fs.writeFileSync(downloadPath, fileData);
         shell.openItem(downloadPath);
+    }
+
+    @autobind
+    handleNewFolderClick() {
+        this.showFolderCreationDialog();
     }
 
     showFolderCreationDialog() {
@@ -123,8 +136,52 @@ export default class Demo extends Component {
     async createFolder(name) {
         let newFolderNamePath = `${this.rootPath}/${this.state.currentDir}/${name}`;
         console.log(newFolderNamePath);
-        this.client.createDirectory(newFolderNamePath);
+        await this.client.createDirectory(newFolderNamePath);
         this.hideFolderCreationDialog();
         this.getDirectoryContents(this.state.currentDir);
+    }
+
+    @autobind
+    async handleUploadClick() {
+        const filePath = this.chooseFileToUpload();
+        await this.uploadFile(filePath);
+        this.getDirectoryContents(this.state.currentDir);
+    }
+
+    @autobind
+    async uploadFile(filePath) {
+        let fileData = fs.readFileSync(filePath);
+        const fileName = Str.removeLeadingSlash(filePath.substr(filePath.lastIndexOf('/')));
+        await this.client.putFileContents(`${this.rootPath}/${this.state.currentDir}/${fileName}`, fileData, {
+            format: 'binary'
+        });
+        this.getDirectoryContents(this.state.currentDir);
+    }
+
+    chooseFileToUpload() {
+        return Str.replaceBackSlashes(this.dialog.showOpenDialog()[0]);
+    }
+
+    @autobind
+    async handleDeleteFileClick(fileName) {
+        await this.deleteFile(fileName);
+        this.getDirectoryContents(this.state.currentDir);
+    }
+
+    async deleteFile(fileName) {
+        const filePath = `${this.rootPath}/${this.state.currentDir}/${fileName}`;
+        await this.client.deleteFile(filePath);
+    }
+
+    @autobind
+    async handleRenameFileClick(oldFileName, newFileName) {
+        await this.renameFile(oldFileName, newFileName);
+        this.getDirectoryContents(this.state.currentDir);
+    }
+
+    async renameFile(oldFileName, newFileName) {
+        const oldFilePath = `${this.rootPath}/${this.state.currentDir}/${oldFileName}`;
+        const newFilePath = `${this.rootPath}/${this.state.currentDir}/${newFileName}`;
+        await this.client.moveFile(oldFilePath, newFilePath);
     }
 }
