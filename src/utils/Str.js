@@ -2,6 +2,9 @@ export default {
     normalizePath(str) {
         return this.removeTrailingSlash(this.forceLeadingSlash(str)).replace(/\\/g, '/');
     },
+    replaceBackSlashes(str) {
+        return str.replace(/\\/g, '/');
+    },
     joinPath(...parts) {
         return this.normalizePath(
             (parts || [])
