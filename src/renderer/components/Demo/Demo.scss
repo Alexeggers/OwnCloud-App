@@ -1,4 +1,42 @@
 :local(.Demo) {
     padding: 10px;
     border: 1px solid black;
+    .button-row {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+    .button {
+        border: solid 1px black;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .clickable:hover {
+        cursor: pointer;
+    }
+
+    .clickable {
+        display: inline-block;
+    }
+
+    .file-list {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #folder-creation-block {
+        display: none;
+    }
+
+    .folder-button {
+        width: 40px;
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 5px;
+    }
 }

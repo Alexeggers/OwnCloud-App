@@ -15,7 +15,11 @@ function createMainWindow() {
     // points to `index.html` in production
     let url = isDevelopment ? 'http://localhost:9080' : `file://${__dirname}/index.html`;
 
-    if (isDevelopment) win.webContents.openDevTools();
+    if (isDevelopment) {
+        win.webContents.openDevTools();
+        const { default: installExtension, REACT_DEVELOPER_TOOLS } = require('electron-devtools-installer');
+        installExtension(REACT_DEVELOPER_TOOLS);
+    }
 
     win.loadURL(url);
 
