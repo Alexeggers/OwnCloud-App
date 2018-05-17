@@ -1,0 +1,156 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.coreWrapper {
+    height: 100%;
+    width: 100%;
+}
+
+.appWrapper {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+:local(.Headers) {
+    display: flex;
+    flex-direction: column;
+    height: 15%;
+
+    .headers__top-bar {
+        background-image: linear-gradient(-1deg, #2ea1f8 2%, #1990ea 100%);
+        display: flex;
+        justify-content: space-between;
+        width: auto;
+
+        div {
+            display: inline;
+        }
+    }
+
+    .headers__bottom-bar {
+        background: #ffffff;
+        box-shadow: 0 -1px 0 0 #e6eaee;
+    }
+
+    * {
+        flex-grow: 1;
+        width: 100%;
+    }
+}
+
+:local(.Core) {
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background-color: #eff3f6;
+    overflow: auto;
+
+    .title {
+        font-family: ProximaNova-Regular;
+        font-size: 24px;
+        color: #354052;
+    }
+
+    .button-row {
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+    }
+
+    .button {
+        border: solid 1px black;
+        width: 40px;
+        height: 40px;
+        margin: 5px;
+    }
+    .button:hover {
+        cursor: pointer;
+    }
+
+    .clickable:hover {
+        cursor: pointer;
+    }
+
+    .clickable {
+        display: inline-block;
+    }
+
+    .file-list {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    #folder-creation-block {
+        display: none;
+    }
+
+    .folder-button {
+        width: 40px;
+        border: 1px solid black;
+        display: inline-block;
+        margin-left: 5px;
+    }
+}
+
+:local(.Login) {
+    background-color: #212531;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+
+    .login-panel {
+        width: 400px;
+        height: 300px;
+        background-color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        padding: 30px;
+        border-radius: 5px;
+
+        * {
+            width: 100%;
+        }
+    }
+
+    .login-form {
+        * {
+            margin-bottom: 10px;
+        }
+
+        label {
+            font-family: ProximaNova-Semibold;
+            font-size: 14px;
+            color: #7f8fa4;
+            line-height: 19px;
+        }
+
+        input {
+            border-radius: 5px;
+            padding-left: 5px;
+            height: 36px;
+            background: #f8fafc;
+            border: 1px solid #dfe3e9;
+            border-radius: 4px;
+        }
+    }
+
+    .login-button {
+        padding: 5px;
+        height: 36px;
+        background-image: linear-gradient(-180deg, #39b54a 0%, #34aa44 98%);
+        border: 1px solid #249533;
+        border-radius: 4px;
+        font-family: ProximaNova-Semibold;
+        font-size: 14px;
+        color: #ffffff;
+    }
+}

@@ -1,4 +1,4 @@
-import { app, BrowserWindow } from 'electron';
+import { app, BrowserWindow, ipcMain as ipc, dialog } from 'electron';
 
 const isDevelopment = process.env.NODE_ENV !== 'production';
 
@@ -8,7 +8,7 @@ let mainWindow;
 
 function createMainWindow() {
     // Construct new BrowserWindow
-    let win = new BrowserWindow();
+    let win = new BrowserWindow({ width: 1000, height: 800 });
 
     // Set url for `win`
     // points to `webpack-dev-server` in development
@@ -29,6 +29,8 @@ function createMainWindow() {
 
     return win;
 }
+
+ipc.on('bad-credentials', () => dialog.showErrorBox('Bad Credentials', 'Please re-enter your credentials.'));
 
 // Quit application when all windows are closed
 app.on('window-all-closed', () => {

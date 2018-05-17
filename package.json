@@ -13,11 +13,9 @@
   "dependencies": {
     "autobind-decorator": "^2.1.0",
     "classnames": "^2.2.5",
-    "downloads-folder": "^1.0.1",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "source-map-support": "^0.5.3",
-    "temp": "^0.8.3",
     "webdav": "^1.5.2"
   },
   "resolutions": {

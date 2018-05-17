@@ -1,0 +1,33 @@
+:local(.File) {
+    height: 150px;
+    width: 300px;
+    padding: 10px;
+    background: #ffffff;
+    border: 1px solid #e6eaee;
+    border-radius: 4px;
+    margin: 15px;
+
+    .file-name {
+        font-family: ProximaNova-Semibold;
+        font-size: 16px;
+        color: #354052;
+    }
+
+    .file-name:hover {
+        cursor: pointer;
+    }
+
+    .file-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+    }
+
+    .last-mod {
+        font-family: ProximaNova-Semibold;
+        font-size: 12px;
+        color: #000000;
+        line-height: 14px;
+    }
+}

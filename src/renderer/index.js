@@ -6,12 +6,12 @@ import ReactDOM from 'react-dom';
 const rootEl = document.getElementById('app');
 
 function render() {
-    const App = require('./App').default;
-    ReactDOM.render(<App />, rootEl);
+    const Core = require('./components/Core').default;
+    ReactDOM.render(<Core />, rootEl);
 }
 
 if (module.hot) {
-    module.hot.accept('./App', render);
+    module.hot.accept('./components/Core', render);
 }
 
 render();
