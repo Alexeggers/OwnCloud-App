@@ -63,7 +63,9 @@ export default class Core extends Component {
                         <div className={cx('Headers', styles.Headers)}>
                             <div className="headers__top-bar">
                                 <div>Overview</div>
-                                <div>Logout</div>
+                                <div onClick={this.handleLogoutClick} className="logout">
+                                    Logout
+                                </div>
                             </div>
                             <div className="headers__bottom-bar" />
                         </div>
@@ -256,5 +258,10 @@ export default class Core extends Component {
         const oldFilePath = `${this.rootPath}/${this.state.currentDir}/${oldFileName}`;
         const newFilePath = `${this.rootPath}/${this.state.currentDir}/${newFileName}`;
         await this.client.moveFile(oldFilePath, newFilePath);
+    }
+
+    @autobind
+    handleLogoutClick() {
+        this.setState({ username: '', password: '', showLogin: true });
     }
 }

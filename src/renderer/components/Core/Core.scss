@@ -36,6 +36,10 @@
         box-shadow: 0 -1px 0 0 #e6eaee;
     }
 
+    .logout:hover {
+        cursor: pointer;
+    }
+
     * {
         flex-grow: 1;
         width: 100%;
