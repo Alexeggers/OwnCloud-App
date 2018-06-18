@@ -1,0 +1,1369 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"margi",
+				"margin"
+			],
+			[
+				"curre",
+				"currentUser"
+			],
+			[
+				"handleLo",
+				"handleLogoutClick"
+			],
+			[
+				"spa",
+				"space-between"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"b",
+				"block"
+			],
+			[
+				"cla",
+				"className"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"crea",
+				"createdClient"
+			],
+			[
+				"show",
+				"showLogin"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"new",
+				"newFolderName"
+			],
+			[
+				"renainp",
+				"renameInput"
+			],
+			[
+				"rename-",
+				"rename-input"
+			],
+			[
+				"hand",
+				"handleConfirmRenameClick"
+			],
+			[
+				"main",
+				"mainBlock"
+			],
+			[
+				"old",
+				"oldFilePath"
+			],
+			[
+				"handle",
+				"handleNewFolderClick"
+			],
+			[
+				"cur",
+				"currentDir"
+			],
+			[
+				"get",
+				"getDirectoryContents"
+			],
+			[
+				"no",
+				"normalizePath"
+			],
+			[
+				"open",
+				"openFolderCreationDialog"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"down",
+				"downloadPath"
+			],
+			[
+				"remo",
+				"removeLeadingSlash"
+			],
+			[
+				"han",
+				"handleUpClick"
+			],
+			[
+				"cu",
+				"currentDir"
+			],
+			[
+				"Rea",
+				"REACT_DEVELOPER_TOOLS"
+			],
+			[
+				"reac",
+				"REACT_DEVELOPER_TOOLS"
+			],
+			[
+				"col-",
+				"col-md-6"
+			],
+			[
+				"co",
+				"col-md-6"
+			],
+			[
+				"hint",
+				"hint-container"
+			],
+			[
+				"border-top",
+				"border-top-color"
+			],
+			[
+				"fle",
+				"flex-start"
+			],
+			[
+				"menu",
+				"menuOptionBackgroundHighlight"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"lis",
+				"list-style"
+			],
+			[
+				"border",
+				"border-right"
+			],
+			[
+				"App",
+				"AppShell"
+			],
+			[
+				"full_",
+				"full_process_name"
+			],
+			[
+				"clie",
+				"client_abs_path\tstatement"
+			],
+			[
+				"clien",
+				"client_name\tstatement"
+			],
+			[
+				"y",
+				"y_new\tstatement"
+			],
+			[
+				"x",
+				"x_new\tstatement"
+			],
+			[
+				"mous",
+				"mouse_click_drag\tfunction"
+			],
+			[
+				"el",
+				"elif"
+			],
+			[
+				"inte",
+				"interruptible_sleep\tfunction"
+			],
+			[
+				"run",
+				"run_tests\tfunction"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect\tclass"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"backgr",
+				"background"
+			],
+			[
+				"bagou",
+				"background"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"do",
+				"download-area"
+			],
+			[
+				"download",
+				"download-area"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"fo",
+				"footer-links"
+			],
+			[
+				"dow",
+				"download-links"
+			],
+			[
+				"col",
+				"col-xs-12"
+			],
+			[
+				"wrap",
+				"flex-wrap"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"borderco",
+				"border-color"
+			],
+			[
+				"flex",
+				"flex-shrink"
+			],
+			[
+				"fon",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"spac",
+				"space-between"
+			],
+			[
+				"marig",
+				"margin-right"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"paddi",
+				"padding-bottom"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"re",
+				"relative"
+			],
+			[
+				"wra",
+				"word-wrap"
+			],
+			[
+				"Passw",
+				"Passwort"
+			],
+			[
+				"in",
+				"input\tTag"
+			],
+			[
+				"sp",
+				"space-between"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"pa",
+				"padding-left"
+			],
+			[
+				"paddin",
+				"padding-top"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"space",
+				"space-around"
+			],
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"bor",
+				"border"
+			],
+			[
+				"m",
+				"min-height"
+			],
+			[
+				"previ",
+				"previousViewedLength"
+			],
+			[
+				"len",
+				"length"
+			],
+			[
+				"first",
+				"firstChild"
+			],
+			[
+				"child",
+				"children"
+			],
+			[
+				"grid",
+				"grid-item"
+			],
+			[
+				"ref",
+				"refreshAllStreams"
+			],
+			[
+				"strea",
+				"streamName"
+			],
+			[
+				"RE",
+				"REQUEST_STREAM_FAILURE"
+			],
+			[
+				"R",
+				"REQUEST_STREAM_SUCCESS"
+			],
+			[
+				"r",
+				"rcc\tReact: component skeleton"
+			],
+			[
+				"Filter",
+				"FilterBar"
+			],
+			[
+				"map",
+				"mapStateToProps"
+			],
+			[
+				"Strea",
+				"StreamItemContainer"
+			],
+			[
+				"Fil",
+				"FilterBar"
+			],
+			[
+				"Sh",
+				"showOffline"
+			],
+			[
+				"showO",
+				"showOnline"
+			],
+			[
+				"St",
+				"StreamDisplayContainer"
+			],
+			[
+				"F",
+				"FILTER_STREAMS"
+			],
+			[
+				"sho",
+				"showOffline"
+			],
+			[
+				"s",
+				"space-between"
+			],
+			[
+				"align-",
+				"align-items"
+			],
+			[
+				"rea",
+				"reac\tJSReactClassSnippet"
+			],
+			[
+				"prop",
+				"propTypes"
+			],
+			[
+				"player",
+				"playerTwo"
+			],
+			[
+				"route",
+				"routeParams"
+			],
+			[
+				"rou",
+				"router"
+			],
+			[
+				"if",
+				"ife\tif … else"
+			],
+			[
+				"onSub",
+				"onSubmitUser"
+			],
+			[
+				"Reac",
+				"ReactRouter"
+			],
+			[
+				"rcc",
+				"rcc\tReact: class component"
+			],
+			[
+				"user",
+				"username"
+			],
+			[
+				"Pro",
+				"ProfileName"
+			],
+			[
+				"webpack",
+				"webpack-dev-server"
+			],
+			[
+				"Html",
+				"HtmlWebpackPluginConfig"
+			],
+			[
+				"a",
+				"assert"
+			],
+			[
+				"UserS",
+				"userService"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text-a",
+				"text-align-last"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"the",
+				"the_post_thumbnail_url"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/main/index.js",
+			"settings":
+			{
+				"buffer_size": 1579,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/index.js",
+			"settings":
+			{
+				"buffer_size": 341,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/components/Login/Login.js",
+			"settings":
+			{
+				"buffer_size": 1352,
+				"encoding": "UTF-8",
+				"line_ending": "Windows",
+				"name": "Login.js"
+			}
+		},
+		{
+			"file": "src/renderer/App.js",
+			"settings":
+			{
+				"buffer_size": 249,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/components/Core/Core.js",
+			"settings":
+			{
+				"buffer_size": 11794,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/components/File/File.js",
+			"settings":
+			{
+				"buffer_size": 2701,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/components/Core/Core.scss",
+			"settings":
+			{
+				"buffer_size": 2915,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "src/renderer/App.scss",
+			"settings":
+			{
+				"buffer_size": 17,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": ":local(.File) {\n    height: 100px;\n    width: 300px;\n    padding: 10px;\n    background: #ffffff;\n    border: 1px solid #e6eaee;\n    border-radius: 4px;\n    margin: 15px;\n\n    .file-name {\n        font-family: ProximaNova-Semibold;\n        font-size: 16px;\n        color: #354052;\n    }\n\n    .file-name:hover {\n        cursor: pointer;\n    }\n\n    .file-content {\n        display: flex;\n        flex-direction: column;\n        justify-content: space-between;\n        height: 100%;\n    }\n\n    .last-mod {\n        font-family: ProximaNova-Semibold;\n        font-size: 12px;\n        color: #000000;\n        line-height: 14px;\n    }\n}\n",
+			"file": "src/renderer/components/File/File.scss",
+			"file_size": 719,
+			"file_write_time": 131727683654098315,
+			"settings":
+			{
+				"buffer_size": 629,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 258.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"package insta",
+				"Package Control: Install Package"
+			],
+			[
+				"package remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"packaremove",
+				"Package Control: Remove Package"
+			],
+			[
+				"sass",
+				"SassBeautify"
+			],
+			[
+				"pac",
+				"Package Control: Install Package"
+			],
+			[
+				"lintersetting",
+				"Preferences: SublimeLinter Settings – Default"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Snippet: reac",
+				"Snippet: JSReactClassSnippet"
+			],
+			[
+				"Snippet: JSre",
+				"Snippet: JSReactClassSnippet"
+			],
+			[
+				"Package",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 480.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import babel-sublime",
+			"babel",
+			"import urllib.request,os,hashlib; h = 'df21e130d211cfc94d9b0905775a7c0f' + '1e3d39e33b79698005270310898eea76'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/dev/OwncloudApp",
+		"/C/dev/OwncloudApp/src",
+		"/C/dev/OwncloudApp/src/renderer",
+		"/C/dev/OwncloudApp/src/renderer/components"
+	],
+	"file_history":
+	[
+		"/C/dev/OwncloudApp/OwncloudApp.sublime-project",
+		"/C/dev/OwncloudApp/package-lock.json",
+		"/C/dev/OwncloudApp/yarn.lock",
+		"/C/dev/OwncloudApp/package.json",
+		"/C/dev/OwncloudApp/.eslintrc.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Login/Login.scss",
+		"/C/dev/OwncloudApp/src/utils/Str.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Demo/Demo.scss",
+		"/C/dev/OwncloudApp/src/renderer/components/Core/index.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Demo/Demo.js",
+		"/C/dev/OwncloudApp/src/renderer/App.js",
+		"/C/dev/OwncloudApp/src/renderer/index.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Login/index.js",
+		"/C/dev/OwncloudApp/src/renderer/components/File/index.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Folder/index.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Folder/File.js",
+		"/C/dev/OwncloudApp/src/renderer/components/Folder/File.scss",
+		"/C/dev/OwncloudApp/src/renderer/components/Folder/Folder.scss",
+		"/C/dev/OwncloudApp/README.md",
+		"/C/Users/Alex.Eggers/Desktop/Coding/buttercup-desktop/node_modules/buttercup/dist/buttercup-web.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/buttercup-desktop/node_modules/dropbox/src/dropbox.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/buttercup-desktop/node_modules/buttercup/source/node/system/WebDAVDatasource.js",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/Applications/platform-ui/platform-ui-skin/src/main/webapp/skin/less/commons/skin/commons.less",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/WebService/CRFormClient/src/main/resources/templates/CRForm.html",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/Applications/platform-ui/platform-ui-skin/src/main/webapp/skin/less/customStyle.less",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/WebService/CRFormClient/src/main/resources/static/vendor/tooltipster-master/LICENSE",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/WebService/CRFormClient/src/main/resources/templates/error.html",
+		"/C/Users/Alex.Eggers/Desktop/Xailabs/DPS/prototyp/WebService/CRFormClient/src/main/resources/static/style/main.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/package.json",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/Content/Content.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/Content/Content.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/HelloWorld/HelloWorld.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/AppShell/AppShell.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/AppShell/AppShell.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/styles/_globals.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/SideBar/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/SideBar/SideBar.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/SideBar/SideBar.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/Content/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/AppShell/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/styles/index.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/components/MainWindow/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/README.md",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/styles/_colors.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/renderer/index.scss",
+		"/C/Users/Alex.Eggers/AppData/Roaming/Sublime Text 3/Packages/User/JsPrettier.sublime-settings",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-webpack-quick-start/src/main/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-boilerplate/app/app.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Python/XaiScripts/JamesBond/ClientCheckVFX/client_check.py",
+		"/C/Users/Alex.Eggers/.bashrc",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Python/XaiScripts/client_check.py",
+		"/C/Users/Alex.Eggers/Desktop/Monkeytest/monkeytest.py",
+		"/C/Users/Alex.Eggers/Desktop/Monkeytest/monkeytest_bond_gadget.py",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Python/XaiScripts/JamesBond/ClientCheck/client_check.py",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Python/XaiScripts/JamesBond/ClientCheck/config.ini",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-boilerplate/src/hello_world/hello_world.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-boilerplate/src/stylesheets/main.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-boilerplate/app/app.html",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Electron/electron-boilerplate/src/app.js",
+		"/C/dev/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/styles.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/HTML5/videoperformancetest/styles.css",
+		"/C/dev/bugfixEquida/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/styles.scss",
+		"/C/dev/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/addons.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Python/DjangoPractice/mysite/mysite/settings.py",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/dist/index.html",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/dist/print.bundle.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/src/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/src/style.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/package.json",
+		"/C/Users/Alex.Eggers/Desktop/Coding/Webpack/demo/index.html",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/view-template-user-delete.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/view-template-text-with-title.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/view-template-confirm-registration.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/static/images/loox-logo.svg",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/static/js/custom.js",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/test.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/view-template-footer.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/templates/view-template-info.ftl",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/static/css/bootstrap.min.css.map",
+		"/C/Users/Alex.Eggers/Desktop/Loox/UserApi/src/main/resources/static/css/styles.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/TwitchApp/src/StreamHeader.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/TwitchApp/src/App/App.test.js",
+		"/C/dev/equida-webapp/src/main/webapp/VAADIN/themes/valo/addons.scss",
+		"/C/dev/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/equida-styles.scss",
+		"/C/dev/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/equida-styles.scss",
+		"/C/Users/Alex.Eggers/Desktop/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/styles.scss",
+		"/C/Users/Alex.Eggers/Desktop/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-styles/equida-styles.scss",
+		"/C/Users/Alex.Eggers/Desktop/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-webapptheme/styles.scss",
+		"/C/Users/Alex.Eggers/Desktop/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-webapptheme/equida-webapptheme.scss",
+		"/C/Users/Alex.Eggers/Desktop/Myriad/equida-webapp/src/main/webapp/VAADIN/themes/equida-webapptheme/addons.scss",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/Controller/DefaultController.php",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/xailabs_intern/doc/Licenses/Custom_geoip-dev_License.txt",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/xailabs_intern/doc/Licenses/Custom_LibPNG_License.txt",
+		"/C/Users/Alex.Eggers/Desktop/picto_translations/picto_user.en.yml",
+		"/C/Users/Alex.Eggers/Desktop/picto_translations/picto_form.en.yml",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/Annotations/Reference.php",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/DataFixtures/ORM/news.yml",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/DataFixtures/ORM/mediatype.yml",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/DataFixtures/ORM/artistSkills.yml",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/DataFixtures/ORM/species.yml",
+		"/C/Users/Alex.Eggers/Desktop/pictofolio/htdocs/src/AppBundle/AdminController/AdminController.php",
+		"/C/Users/Alex.Eggers/AppData/Roaming/Sublime Text 3/Packages/SublimeLinter/SublimeLinter.sublime-settings",
+		"/C/Users/Alex.Eggers/Desktop/Coding/CSS/sass-test/sass/screen.scss",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/App/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/App.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/main.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/public/index.html",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/StreamDisplayContainer.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/FilterBar.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/Reducers.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/StreamHeader.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/StreamContainer.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/TestComponent.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/TestContainer.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/node_modules/accepts/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/package.json",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/App.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/my-app/src/Testy.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/src/css/App.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/src/css/index.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/package.json",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/src/index.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/src/components/App.jsx",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/node_modules/react-scripts/template/src/App.css",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/calculator/src/App.test.js",
+		"/C/Users/Alex.Eggers/Desktop/Coding/React/github-battle/dist/index_bundle.js"
+	],
+	"find":
+	{
+		"height": 24.0
+	},
+	"find_in_files":
+	{
+		"height": 109.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getDirectoryContents",
+			"handleNewFolderClick",
+			"folder-button",
+			"overflow",
+			"scroll",
+			"currentUser",
+			"xaila",
+			"span",
+			"Demo",
+			"deleteF",
+			"getDirectoryContents",
+			"rootPath",
+			");"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 4,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/main/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1579,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1027,
+								1027
+							]
+						],
+						"settings":
+						{
+							"SL.14.region_keys":
+							[
+							],
+							"SL.30.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "src/renderer/index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 341,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								341,
+								341
+							]
+						],
+						"settings":
+						{
+							"SL.15.region_keys":
+							[
+							],
+							"SL.31.region_keys":
+							[
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "src/renderer/components/Login/Login.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1352,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								430,
+								431
+							]
+						],
+						"settings":
+						{
+							"SL.16.region_keys":
+							[
+							],
+							"SL.21.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.28.region_keys":
+							[
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.eslint.Highlights.|e94f074c85d0520575724e3bd046bb09ce3fa1434178f7a61f8f83cb438975fa|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions",
+								"SL.eslint.Highlights.|9324fd9e95616012f6982800f787f22bc960febb17b063592325200111b74df1|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"auto_name": "Login.js",
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "src/renderer/App.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 249,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								199,
+								199
+							]
+						],
+						"settings":
+						{
+							"SL.17.region_keys":
+							[
+								"sublime_linter.protected_regions",
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.eslint.Highlights.|3ea56b8e6c819749fc3b563c3d3b35a151bbb873df3f8ca157035a435f5988ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Highlights.|47a711e953099e6d8d72422dd9e02b91f1fbc2a85989733d873127b2dc7d7400|region.yellowish markup.warning.sublime_linter|32"
+							],
+							"SL.70.region_keys":
+							[
+								"SL.eslint.Highlights.|3ea56b8e6c819749fc3b563c3d3b35a151bbb873df3f8ca157035a435f5988ea|region.yellowish markup.warning.sublime_linter|32",
+								"SL.eslint.Gutter.|region.yellowish markup.warning.sublime_linter|dot",
+								"SL.eslint.Highlights.|47a711e953099e6d8d72422dd9e02b91f1fbc2a85989733d873127b2dc7d7400|region.yellowish markup.warning.sublime_linter|32",
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "src/renderer/components/Core/Core.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 11794,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2782,
+								2782
+							]
+						],
+						"settings":
+						{
+							"SL.18.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.64.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 480.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "src/renderer/components/File/File.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2701,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1277,
+								1277
+							]
+						],
+						"settings":
+						{
+							"SL.19.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"SL.25.region_keys":
+							[
+								"sublime_linter.protected_regions"
+							],
+							"syntax": "Packages/Babel/JavaScript (Babel).sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		},
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 6,
+					"file": "src/renderer/components/Core/Core.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2915,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								788,
+								788
+							]
+						],
+						"settings":
+						{
+							"SL.20.region_keys":
+							[
+							],
+							"SL.65.region_keys":
+							[
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 300.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "src/renderer/App.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 17,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								17,
+								17
+							]
+						],
+						"settings":
+						{
+							"SL.21.region_keys":
+							[
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "src/renderer/components/File/File.scss",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 629,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								629,
+								629
+							]
+						],
+						"settings":
+						{
+							"SL.21.region_keys":
+							[
+							],
+							"SL.22.region_keys":
+							[
+							],
+							"SL.24.region_keys":
+							[
+							],
+							"syntax": "Packages/SCSS/SCSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 24.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.624953343288,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.SublimeLinter":
+	{
+		"height": 0.0
+	},
+	"output.SublimeLinter Messages":
+	{
+		"height": 92.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "OwncloudApp.sublime-project",
+	"replace":
+	{
+		"height": 44.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"file.j",
+				"src\\renderer\\components\\File\\File.js"
+			],
+			[
+				"filemana",
+				"src\\renderer\\file-manager.js"
+			],
+			[
+				"owncloud",
+				"node_modules\\buttercup\\source\\node\\system\\OwnCloudDatasource.js"
+			],
+			[
+				"dropbox",
+				"node_modules\\dropbox\\src\\dropbox.js"
+			],
+			[
+				"webdav.js",
+				"src\\renderer\\components\\file-manager\\sources\\webdav.js"
+			],
+			[
+				"wedav.js",
+				"node_modules\\buttercup\\source\\node\\system\\WebDAVDatasource.js"
+			],
+			[
+				"inde",
+				"src\\index.js"
+			],
+			[
+				"styl",
+				"src\\style.css"
+			],
+			[
+				"index",
+				"src\\index.js"
+			],
+			[
+				"sty",
+				"src\\style.css"
+			],
+			[
+				"script",
+				"htdocs\\web\\js\\script.js"
+			],
+			[
+				"streamheadercontainer",
+				"src\\StreamHeaderContainer.jsx"
+			],
+			[
+				"indexh",
+				"public\\index.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 400.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 704.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 194.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

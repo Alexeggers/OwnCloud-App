@@ -7,6 +7,12 @@ import fs from 'fs';
 import { shell, remote, ipcRenderer as ipc } from 'electron';
 import autobind from 'autobind-decorator';
 import File from '../File';
+import Button from '@material-ui/core/Button';
+import TextField from '@material-ui/core/TextField';
+import ArrowUpwardIcon from '@material-ui/icons/ArrowUpward';
+import CloudUploadIcon from '@material-ui/icons/CloudUpload';
+import CreateNewFolderIcon from '@material-ui/icons/CreateNewFolder';
+import Tooltip from '@material-ui/core/Tooltip';
 
 export default class Core extends Component {
     state = {
@@ -32,6 +38,9 @@ export default class Core extends Component {
     }
 
     render() {
+        let style = {
+            color: 'white'
+        };
         return (
             <div className="appWrapper">
                 {this.state.showLogin && (
@@ -62,10 +71,9 @@ export default class Core extends Component {
                     <div className="coreWrapper">
                         <div className={cx('Headers', styles.Headers)}>
                             <div className="headers__top-bar">
-                                <div>Overview</div>
-                                <div onClick={this.handleLogoutClick} className="logout">
+                                <Button style={style} variant="flat" color="primary" onClick={this.handleLogoutClick}>
                                     Logout
-                                </div>
+                                </Button>
                             </div>
                             <div className="headers__bottom-bar" />
                         </div>
@@ -73,28 +81,48 @@ export default class Core extends Component {
                             <div className="title">File System</div>
                             <p>Current Files:</p>
                             <div className="button-row">
-                                <div className="button" onClick={this.handleUpClick}>
-                                    Up
-                                </div>
-                                <div className="button" onClick={this.handleNewFolderClick}>
-                                    New folder
-                                </div>
-                                <div className="button" onClick={this.handleUploadClick}>
-                                    Upload file
-                                </div>
+                                <Tooltip title="New Folder">
+                                    <Button
+                                        variant="outlined"
+                                        className="material-button"
+                                        onClick={this.handleNewFolderClick}
+                                    >
+                                        <CreateNewFolderIcon />
+                                    </Button>
+                                </Tooltip>
+                                <Tooltip title="Move up">
+                                    <Button variant="outlined" onClick={this.handleUpClick} className="material-button">
+                                        <ArrowUpwardIcon />
+                                    </Button>
+                                </Tooltip>
+                                <Tooltip title="Upload File">
+                                    <Button
+                                        variant="outlined"
+                                        onClick={this.handleUploadClick}
+                                        className="material-button"
+                                    >
+                                        <CloudUploadIcon />
+                                    </Button>
+                                </Tooltip>
                             </div>
                             {this.state.showFolderCreationDialog && (
-                                <div>
+                                <div className="folder-creation-form">
                                     <form
                                         onSubmit={event => {
                                             event.preventDefault();
                                             this.createFolder(this.state.newFolderName);
                                         }}
                                     >
-                                        <label>Folder name: </label>
-                                        <input onChange={e => this.setState({ newFolderName: e.target.value })} />
-                                        <button type="submit">Create</button>
-                                        <button onClick={this.handleNewFolderCancelClick}>Cancel</button>
+                                        <TextField
+                                            label="Folder name"
+                                            onChange={e => this.setState({ newFolderName: e.target.value })}
+                                        />
+                                        <Button type="submit" variant="flat">
+                                            Create
+                                        </Button>
+                                        <Button variant="flat" onClick={this.handleNewFolderCancelClick}>
+                                            Cancel
+                                        </Button>
                                     </form>
                                 </div>
                             )}
@@ -131,7 +159,7 @@ export default class Core extends Component {
         event.preventDefault();
         event.stopPropagation();
         if ((await this.doLogin(this.state.username, this.state.password)) === true) {
-            this.setState({ showLogin: false });
+            this.setState({ showLogin: false, currentUser: this.state.username });
             this.getDirectoryContents(this.state.currentDir);
             window.client = this.client;
         } else {
@@ -152,6 +180,7 @@ export default class Core extends Component {
     }
 
     async getDirectoryContents(path) {
+        console.log(Str.normalizePath(`${this.rootPath}/${path}`));
         let result = await this.client.getDirectoryContents(Str.normalizePath(`${this.rootPath}/${path}`));
         result = result.map(obj => {
             return { ...obj, filename: Str.normalizePath(obj.filename) };
@@ -167,7 +196,7 @@ export default class Core extends Component {
     handleFileClick(obj) {
         // Handle file clicking
         if (obj.type === 'directory') {
-            this.getDirectoryContents(this.state.currentDir + obj.basename);
+            this.getDirectoryContents(this.state.currentDir + '/' + obj.basename);
         } else if (obj.type === 'file') {
             this.downloadFile(obj);
         }

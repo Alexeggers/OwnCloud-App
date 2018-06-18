@@ -1,5 +1,5 @@
 :local(.File) {
-    height: 150px;
+    height: 100px;
     width: 300px;
     padding: 10px;
     background: #ffffff;
@@ -11,6 +11,10 @@
         font-family: ProximaNova-Semibold;
         font-size: 16px;
         color: #354052;
+    }
+
+    .folder-icon {
+        padding-top: 10px;
     }
 
     .file-name:hover {

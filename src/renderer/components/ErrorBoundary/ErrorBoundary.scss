@@ -1,0 +1,11 @@
+:local(.ErrorBoundary) {
+    padding: 20px;
+}
+:local(.title) {
+    font-weight: normal;
+    font-size: 2em;
+    font-family: sans-serif;
+    white-space: pre-wrap;
+    margin: 0px 2rem 0.75rem 0px;
+    flex: 0;
+}

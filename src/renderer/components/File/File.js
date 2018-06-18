@@ -3,6 +3,9 @@ import styles from './File.scss';
 import cx from 'classnames';
 import PropTypes from 'prop-types';
 import autobind from 'autobind-decorator';
+import Button from '@material-ui/core/Button';
+import FolderIcon from '@material-ui/icons/Folder';
+import TextField from '@material-ui/core/TextField';
 
 export default class File extends Component {
     static propTypes = {
@@ -28,17 +31,19 @@ export default class File extends Component {
                 {this.state.showRenameForm && (
                     <div>
                         <form onSubmit={this.handleConfirmRenameClick}>
-                            <input
+                            <TextField
                                 onChange={e => this.setState({ fileName: e.target.value })}
                                 value={this.state.fileName}
                             />
-                            <button type="submit">Confirm</button>
+                            <br />
+                            <Button type="submit">Confirm</Button>
                         </form>
                     </div>
                 )}
                 {!this.state.showRenameForm && (
                     <div ref={el => (this.mainBlock = el)} className="file-content">
                         <div className="file-description">
+                            {this.props.obj.type === 'directory' && <FolderIcon />}
                             <span className="file-name" onClick={() => this.props.clickHandler(this.props.obj)}>
                                 {this.state.fileName}
                             </span>
@@ -46,8 +51,8 @@ export default class File extends Component {
                             <span className="last-mod">{this.props.obj.lastmod}</span>
                         </div>
                         <div className="file-button-container">
-                            <button onClick={this.handleRenameClick}>Rename</button>
-                            <button onClick={() => this.props.deleteHandler(this.props.obj.basename)}>Delete</button>
+                            <Button onClick={this.handleRenameClick}>Rename</Button>
+                            <Button onClick={() => this.props.deleteHandler(this.props.obj.basename)}>Delete</Button>
                         </div>
                     </div>
                 )}

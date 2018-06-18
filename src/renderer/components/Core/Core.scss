@@ -18,13 +18,13 @@
 :local(.Headers) {
     display: flex;
     flex-direction: column;
-    height: 15%;
+    height: 5%;
 
     .headers__top-bar {
         background-image: linear-gradient(-1deg, #2ea1f8 2%, #1990ea 100%);
-        display: flex;
-        justify-content: space-between;
         width: auto;
+        display: flex;
+        justify-content: flex-end;
 
         div {
             display: inline;
@@ -32,7 +32,7 @@
     }
 
     .headers__bottom-bar {
-        background: #ffffff;
+        background: #eff3f6;
         box-shadow: 0 -1px 0 0 #e6eaee;
     }
 
@@ -41,8 +41,8 @@
     }
 
     * {
-        flex-grow: 1;
-        width: 100%;
+        //flex-grow: 1;
+        //width: 100%;
     }
 }
 
@@ -52,6 +52,14 @@
     height: 100%;
     background-color: #eff3f6;
     overflow: auto;
+
+    .material-button {
+        margin-left: 10px;
+    }
+
+    .folder-creation-form {
+        margin: 20px;
+    }
 
     .title {
         font-family: ProximaNova-Regular;
@@ -91,13 +99,6 @@
 
     #folder-creation-block {
         display: none;
-    }
-
-    .folder-button {
-        width: 40px;
-        border: 1px solid black;
-        display: inline-block;
-        margin-left: 5px;
     }
 }
 
