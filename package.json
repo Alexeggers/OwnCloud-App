@@ -38,7 +38,7 @@
     "eslint-plugin-import": "^2.8.0",
     "eslint-plugin-prettier": "^2.6.0",
     "eslint-plugin-react": "^7.6.1",
-    "node-sass": "^4.7.2",
+    "node-sass": "^4.13.1",
     "prettier": "^1.10.2",
     "prettier-eslint": "^8.8.1",
     "sass-loader": "^6.0.6",
